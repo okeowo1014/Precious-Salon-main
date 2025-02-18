@@ -15,6 +15,14 @@
 
 }
 
+input::placeholder {
+    color: #ffffff;
+}
+input:focus::placeholder {
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+}
+
 #nav-link{
     color: #141414;
     padding-right: 46px;
@@ -34,7 +42,6 @@
 }
 
 #section-one-left h1 {
-    font-family: 'Playfair Display';
     font-size: 70px;
     color: rgba(0, 0, 0, 1);
 }
@@ -44,6 +51,7 @@
     font-size: 14px;
     padding-bottom: 50px;
 }
+
 .gold-text{
     color: rgba(203, 161, 53, 1);
 }
@@ -192,7 +200,6 @@
 }
 
 h1.display-4 {
-    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
@@ -217,7 +224,6 @@ h1.display-4 {
 }
 
 .policy-title {
-    font-family: 'Playfair Display', serif;
     font-style: italic;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -428,6 +434,7 @@ navbar {
 
 .text-gold {
     color: #D4AF37;
+   
 }
 
 .btn-gold {
