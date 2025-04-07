@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact - Precious Braidings</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Port Lligat Slab">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,15 +20,13 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
 
             <a class="navbar-brand" href="#"
                 style="font-size: 35px; text-decoration: none; font-family: Port Lligat Slab;">
 
-                <img src="images/Vector.png" alt="vector-image" style="padding-left: 0px;">
-
-                STYLICLE</a>
+                <img src="images/Vector.png" alt="vector-image">STYLICLE</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,17 +36,17 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-link" href="/index.html">Home <span class="sr-only"></span></a>
+                        <a class="nav-link" id="nav-link" href="index.html">Home <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-link" href="/about.html">About Us <span class="sr-only"></span></a>
+                        <a class="nav-link" id="nav-link" href="about.html">About Us <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-link" href="/services.html">Services <span
+                        <a class="nav-link" id="nav-link" href="services.html">Services <span
                                 class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-link" href="/contact.html">Contact Us <span
+                        <a class="nav-link" id="nav-link" href="contact.html">Contact Us <span
                                 class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active dropdown">
@@ -64,27 +62,21 @@
                         </div>
                     </li>
                 </ul>
-                <div class="p-3">
                     <!-- <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Login</button> -->
-                    <button type="button" class="btn btn-outline-dark">Login</button>
+                    <a href="#"  class="btn btn-outline-dark mx-2">Login</a>
+                    <a href="#" class="btn btn-outline-dark  my-2 my-sm-0 mx-2" >Sign Up</a>
+
                 </div>
-                <div class="pl-3">
-                    <button class="btn btn-dark my-2 my-sm-0 " type="submit">Sign Up</button>
-                </div>
+            
+                    
             </div>
         </div>
     </nav>
 
     <div class="px-4 py-5  text-center service-sec-one">
-        <h6 class="text-gold pt-5 ">SERVICE CATEGORIES</h6>
-        <!-- <img class="d-block mx-auto mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
-        <h1 class="display-4 fw-bold text-white text-wrap  col-md-6 mx-auto justify-content-center">Explore Our Range of
-            Hair Care Categories</h1>
-        <div class="col-lg-6 mx-auto">
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a href="#" class="btn  btn-lg gap-3 btn-warning text-dark">Contact Us</a>
-            </div>
-        </div>
+        <h6 class="text-gold pt-5 ">CONTACT US</h6>
+        <h1 class="display-4 fw-bold text-white text-wrap  col-md-6 mx-auto justify-content-center">Reach out to us</h1>
+
     </div>
 
 
@@ -171,31 +163,33 @@
                     <!-- First Name -->
                     <div class="mb-4">
                         <label class="form-label text-white">First Name</label>
-                        <input type="text" class="form-control custom-input">
+                        <input type="text" class="form-control">
                     </div>
 
                     <!-- Phone Number -->
                     <div class="mb-4">
                         <label class="form-label text-white">Phone Number</label>
                         <div class="input-group">
-                            <button class="btn btn-outline-gold dropdown-toggle country-select" type="button">
+                            <!-- <button class="btn btn-outline-gold dropdown-toggle country-select" type="button">
                                 <img src="path-to-flag.png" width="20" alt="Flag">
-                            </button>
-                            <input type="tel" class="form-control custom-input">
+                            </button> -->
+                            <input type="number" class="form-control">
                         </div>
                     </div>
 
                     <!-- Email Address -->
                     <div class="mb-4">
                         <label class="form-label text-white">Email Address</label>
-                        <input type="email" class="form-control custom-input" placeholder="manasee@gmail.com">
+                        <input type="email" class="form-control" placeholder="manasee@gmail.com">
                     </div>
 
                     <!-- Service Need -->
                     <div class="mb-4">
                         <label class="form-label text-white">Service you Need</label>
-                        <select class="form-select custom-input">
-                            <option selected>Select Service</option>
+                        <select class="form-select ">
+                            <option >Select Service</option>
+                            <option >Select Service</option>
+                            <option >Select Service</option>
                             <!-- Add service options -->
                         </select>
                     </div>
@@ -204,15 +198,15 @@
                     <div class="mb-4">
                         <label class="form-label text-white">Any Note For Us</label>
                         <div class="message-input-wrapper">
-                            <i class="fas fa-pen-to-square text-gold message-icon"></i>
-                            <textarea class="form-control custom-input text-white" rows="4"
-                                placeholder="Message..."></textarea>
+                            <!-- <i class="fas fa-pen-to-square text-gold message-icon"></i> -->
+                            <textarea class="form-control" rows="4"
+                                placeholder=" Message..."></textarea>
                         </div>
                     </div>
 
                     <!-- Submit Button -->
                     <div class="col-12" style="background-color: rgba(203, 161, 53, 1);">
-                        <button type="submit" class="btn btn-gold w-100 py-3">Book An Appointment</button>
+                        <button type="submit" class="btn btn-gold w-100 py-3  text-white">Book An Appointment</button>
                     </div>
                     <!-- <button type="submit" class="btn btn-gold w-100 py-3">Book An Appointment</button> -->
                 </form>
@@ -227,13 +221,13 @@
         <div class="container">
             <!-- Logo and Social Media Row -->
             <div class="row mb-4">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="d-flex align-items-center">
-                        <img src="images/Vector-logo.png" alt="ServiceMarket Logo" height="40">
+                        <img  src="images/Vector-logo.png" alt="ServiceMarket Logo" height="40">
                         <h3 class="ms-2 mb-0 text-warning">SERVICEMARKET</h3>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="d-flex justify-content-end gap-3">
                         <a href="#" class="btn btn-outline-warning"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="btn btn-outline-warning"><i class="fab fa-twitter"></i></a>
@@ -251,7 +245,7 @@
             <!-- Main Footer Content -->
             <div class="row">
                 <!-- Explore Section -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h4 class="mb-4" style="font-family: 'Playfair Display';">Explore</h4>
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
@@ -263,7 +257,7 @@
                 </div>
 
                 <!-- Utility Pages Section -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h4 class="mb-4" style="font-family: 'Playfair Display';">Utility Pages</h4>
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
@@ -272,7 +266,7 @@
                 </div>
 
                 <!-- Keep in Touch Section -->
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h4 class="mb-4" style="font-family: 'Playfair Display';">Keep in Touch</h4>
                     <div class="contact-info">
                         <p class="mb-2 text-white">
